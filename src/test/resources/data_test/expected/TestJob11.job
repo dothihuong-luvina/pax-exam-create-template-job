@@ -1,0 +1,23 @@
+JOB = [name:"TestJob11", jobclass:/*Job class name here*/]
+//GROUPKEY = /*group key here*/
+//QUERY = "" // alternative to FETCHACTION, write your query here. 
+//QUERY_VARIABLE = // Variable to binding. 
+//DBEXEC = /*fill DBEXEC here*/
+//DBEXEC_VARIABLE = /*fill DBEXEC_VARIABLE here*/
+COMMAND = '''testCommand'''
+//FORMAT = /*fill FORMAT here*/
+//FETCHACTION = {
+	/*code FETCHACTION here*/
+//}
+//ACCUMULATE = {
+	/*code ACCUMULATE here*/
+//}
+//FINALLY = {
+	/*code FINALLY here*/
+//}
+//KEYEXPR = [:] /*Map config for KEYEXPR*/
+//SENDTYPE = /*Config for SENDTYPE*/
+//RESOURCEID = /*Config for RESOURCEID*/
+//MONITORINGTYPE = /*Config for MONITORINGTYPE*/
+//DBTYPE = /*Config for DBTYPE*/
+//DEST = parameters.dest
