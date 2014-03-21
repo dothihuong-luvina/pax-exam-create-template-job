@@ -115,6 +115,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob01.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob01.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -203,6 +204,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob05.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob05.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -235,6 +237,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob06.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob06.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -266,6 +269,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob07.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob07.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -298,6 +302,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob08.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob08.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -330,6 +335,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob09.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob09.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -361,6 +367,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob10.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob10.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -393,6 +400,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob11.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob11.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -425,6 +433,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob12.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob12.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -456,6 +465,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob13.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob13.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -488,6 +498,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob14.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob14.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -520,6 +531,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob15.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob15.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -551,6 +563,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob16.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob16.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -582,6 +595,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob17.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob17.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -617,6 +631,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob18.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob18.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -655,6 +670,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob19.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob19.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -696,6 +712,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob20.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob20.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -729,6 +746,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob21.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob21.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -761,6 +779,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob22.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob22.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -793,6 +812,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob23.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob23.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -825,6 +845,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob24.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob24.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -860,6 +881,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob25.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob25.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -899,6 +921,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob26.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob26.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -941,6 +964,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob27.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob27.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 
@@ -982,6 +1006,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob28.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob28.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1035,6 +1060,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/src/test/resources/data_test/output/TestJob30.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob30.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1046,7 +1072,12 @@ public class TestCreateTmpJob {
 	 *   - the fourth option is -fp with path to write file does not exist
 	 * JobName does not exist.
 	 * Command: genjob -n TestJob31 -f "testFetchaction" -q -fp "/path_write_file_not_exist/"
-	 * Expected: file TestJob31.job can not create.
+	 * Expected: 
+	 * 		- path to write file will be create.
+	 *		- file TestJob31.job will be created in the folder correspond to data of "-fp".
+	 * 		- contents of the FETCHACTION is not comment out with data correspond is "testFetchaction".
+	 * 		- contents of the QUERY is not comment out with data correspond is default.
+	 *		- contents of the other keys into job is comment out.
 	 */
 	@Test
 	public void create_tmp_job_31() {
@@ -1059,10 +1090,17 @@ public class TestCreateTmpJob {
 		listCmd.add("-q")
 		listCmd.add("-fp")
 		listCmd.add("/path/to/write/file/not/exist")
+		testCommon.cleanData("/path/to/write/file/not/exist/TestJob31.job")
 		// run command
 		message = testCommon.runProcClosure(listCmd, dir, true)
-		assertTrue(message.contains("CAN NOT CREATE JOB"))
-		assertFalse(new File("/path/to/write/file/not/exist/TestJob31.job").exists())
+		assertTrue(message.contains("CREATED"))
+		assertTrue(new File("/path/to/write/file/not/exist/TestJob31.job").exists())
+		// get data output of function
+		result = (new File("/path/to/write/file/not/exist/TestJob31.job")).text
+		// get data expected to compare
+		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob31.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
+		assertEquals(expected, result)
 	}
 	
 	/**
@@ -1099,6 +1137,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob32.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob32.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1132,6 +1171,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob33.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob33.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1164,6 +1204,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob34.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob34.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1196,6 +1237,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob35.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob35.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1228,6 +1270,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/TestJob36.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob36.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 	
@@ -1272,6 +1315,7 @@ public class TestCreateTmpJob {
 		result = (new File(wd + "/src/test/resources/data_test/output/TestJob37.job")).text
 		// get data expected to compare
 		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob37.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
 }
