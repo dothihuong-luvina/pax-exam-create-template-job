@@ -1318,4 +1318,62 @@ public class TestCreateTmpJob {
 		expected = expected.replaceAll("\r\n", "\n")
 		assertEquals(expected, result)
 	}
+	
+	/**
+	 * Run command with data of option -n contains ".job" 
+	 * JobName does not exist.
+	 * Command: genjob -n TestJob38
+	 * Expected: 
+	 * 		- file TestJob38.job will be created in the folder to run batch/bash file.
+	 *		- contents of the keys into job is comment out.
+	 */
+	@Test
+	public void create_tmp_job_38() {
+		// set list command for create job
+		listCmd.add(strCmd)
+		listCmd.add("-n")
+		listCmd.add("TestJob38.job")
+		// remove job file if exists
+		testCommon.cleanData(wd + "/TestJob38.job")
+		// run command
+		message = testCommon.runProcClosure(listCmd, dir, true)
+		assertTrue(message.contains("CREATED"))
+		assertTrue(new File(wd + "/TestJob38.job").exists())
+		// get data output of function
+		result = (new File(wd + "/TestJob38.job")).text
+		// get data expected to compare
+		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob38.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
+		assertEquals(expected, result)
+	}
+	
+	/**
+	 * Run command contains data of option -fp is relative path 
+	 * JobName does not exist.
+	 * Command: genjob -n TestJob39 -fp relative/path
+	 * Expected:
+	 * 		- file TestJob39.job will be created in the folder to run batch/bash file.
+	 *		- contents of the keys into job is comment out.
+	 */
+	@Test
+	public void create_tmp_job_39() {
+		// set list command for create job
+		listCmd.add(strCmd)
+		listCmd.add("-n")
+		listCmd.add("TestJob39")
+		listCmd.add("-fp")
+		listCmd.add("relative/path")
+		// remove job file if exists
+		(new File(wd + "/relative")).deleteDir()
+		// run command
+		message = testCommon.runProcClosure(listCmd, dir, true)
+		assertTrue(message.contains("CREATED"))
+		assertTrue(new File(wd + "/relative/path/TestJob39.job").exists())
+		// get data output of function
+		result = (new File(wd + "/relative/path/TestJob39.job")).text
+		// get data expected to compare
+		expected = (new File(wd + "/src/test/resources/data_test/expected/TestJob39.job")).text
+		expected = expected.replaceAll("\r\n", "\n")
+		assertEquals(expected, result)
+	}
 }
