@@ -1,5 +1,4 @@
-JOB = [name:"TestJob23", jobclass:/*Job class name here*/]
-//GROUPKEY = /*group key here*/
+JOB = [name:"TestJob23"/*, jobclass: Job class name here*/]
 //QUERY = "" // alternative to FETCHACTION, write your query here. 
 //QUERY_VARIABLE = // Variable to binding. 
 //DBEXEC = /*fill DBEXEC here*/
@@ -12,6 +11,7 @@ COMMAND = "test command"
 //ACCUMULATE = {
 	/*code ACCUMULATE here*/
 //}
+//GROUPKEY = /*group key here*/
 //FINALLY = {
 	/*code FINALLY here*/
 //}
@@ -20,4 +20,4 @@ COMMAND = "test command"
 //RESOURCEID = /*Config for RESOURCEID*/
 //MONITORINGTYPE = /*Config for MONITORINGTYPE*/
 //DBTYPE = /*Config for DBTYPE*/
-//DEST = parameters.dest
+DEST = parameters.dest

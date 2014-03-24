@@ -1,4 +1,4 @@
-package test.groovy.common;
+package common;
 import java.io.File;
 public class TestUTCommon {
 	/**
